@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-crawler"
+version = "0.1.0"
+description = "Web crawler"
+authors = ["Aleksandr Ostaenkov <alexost66@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.9.1"
+requests = "^2.28.1"
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
